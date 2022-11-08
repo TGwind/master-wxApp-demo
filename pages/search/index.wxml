@@ -1,0 +1,9 @@
+<van-search 
+placeholder="请输入搜索关键词" 
+focus 
+use-right-icon-slot 
+value="{{searchInput}}" 
+bind:change="inputChange">
+  <van-icon slot="right-icon" name="scan" bind:click="searchscan" />
+</van-search>
+<text>搜索字符串：{{searchInput}}</text>

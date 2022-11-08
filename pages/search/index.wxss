@@ -1,0 +1,6 @@
+/* pages/search/index.wxss */
+.searchView {
+  border: 3rpx solid #faca82;
+  border-radius: 30rpx;
+  padding: 10rpx;
+}
